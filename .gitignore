@@ -1,0 +1,21 @@
+# Do not commit your API key
+.env
+
+# Cached vector store (rebuilt when PDFs change)
+.vectorstore/
+.vectorstore_fast/
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

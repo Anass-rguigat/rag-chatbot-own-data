@@ -1,0 +1,3 @@
+# Keep default toolbar so Stop button stays visible (cancel running request)
+[client]
+toolbarMode = "auto"
